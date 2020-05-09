@@ -196,7 +196,10 @@ while True:
             continue
         else:
             print('Thanks for playing')
+            c=1
             break
+    if c==1:
+        break
 
 
 
