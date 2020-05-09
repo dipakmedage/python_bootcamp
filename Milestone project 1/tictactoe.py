@@ -96,7 +96,7 @@ while True:
 
             if win_check(theBoard,player1_marker):
                 display_board(theBoard)
-                print('Congratulation! you have won ')
+                print('Congratulation! player 1 you have won ')
                 game_on=False
             else:
                 if full_board_check(theBoard):
